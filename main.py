@@ -1,3 +1,7 @@
-from openai import OpenAI
+import os
 
-client = OpenAI(api_key="fökahsdöjeranc,öasjdh")
+AWS_ACCESS_KEY_ID = "AKIA1234567890ABCDEF"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCY1234567890"
+
+DATABASE_PASSWORD = "super-secret-password-123"
+GITHUB_TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxyzABCD"
